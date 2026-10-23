@@ -19,5 +19,5 @@ if __name__ == "__main__":
     print(cenario.resumo("UCS", caminho, historico_passos))
 
     arquivo = f"ucs_semente{SEMENTE}.gif"
-    animar(cenario.fundo, caminho, historico_passos, cenario.origem, cenario.destino, arquivo, titulo=f"UCS - {cenario.nome}")
+    animar(cenario.fundo, caminho, historico_passos, cenario.origem, cenario.destino, arquivo, titulo=f"UCS - {cenario.nome}", passo = 10)
     print(f"Animação salva em {arquivo}")
